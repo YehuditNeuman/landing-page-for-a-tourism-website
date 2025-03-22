@@ -1,0 +1,114 @@
+#father {
+    display: grid;
+    grid-template-areas: "bhutan "
+                         "dubai "
+                            "india"
+                          "island "
+                         "maldiv "
+                            "bali "
+                         "uganda ";
+    grid-gap: 5px;
+               margin:20px;
+}
+#dubai {
+    grid-area: dubai;
+    width: 97%;
+    height: 570px;
+    margin: 10px;
+}
+#india {
+    grid-area: india;
+    width: 97%;
+    height: 570px;
+    margin: 10px;
+}
+#island {
+    grid-area: island;
+    width: 97%;
+    height: 570px;
+    margin: 10px;
+    
+}
+#bhutan {
+    grid-area: bhutan;
+    width: 97%;
+    height: 570px;
+    margin: 10px;
+   
+}
+#bali {
+    grid-area: bali;
+    width: 97%;
+    height: 570px;
+    margin: 10px;
+}
+#maldiv {
+    grid-area: maldiv;
+    width: 97%;
+    height: 570px;
+    margin: 10px;
+}
+#uganda {
+    grid-area: uganda;
+    width: 97%;
+    height: 570px;
+    margin: 10px;
+}  
+@media(max-width:700px) {
+    #father {
+        display: grid;
+        grid-template-areas: "bhutan "
+                             "dubai "
+                                "india"
+                              "island "
+                             "maldiv "
+                                "bali "
+                             "uganda ";
+        grid-gap: 5px;
+                   margin:20px;
+    }
+    #dubai {
+        grid-area: dubai;
+        width: 97%;
+        height: 100%;
+        margin: 10px;
+    }
+    #india {
+        grid-area: india;
+        width: 97%;
+        height: 100%;
+        margin: 10px;
+    }
+    #island {
+        grid-area: island;
+        width: 97%;
+        height: 100%;
+        margin: 10px;
+       
+    }
+    #bhutan {
+        grid-area: bhutan;
+        width: 97%;
+        height: 100%;
+        margin: 10px;
+    }
+    #bali {
+        grid-area: bali;
+        width: 97%;
+        height: 100%;
+        margin: 10px;
+    }
+    #maldiv {
+        grid-area: maldiv;
+        width: 97%;
+        height: 100%;
+        margin: 10px;
+    }
+    #uganda {
+        grid-area: uganda;
+        width: 97%;
+        height: 100%;
+        margin: 10px;
+    }
+ 
+}
